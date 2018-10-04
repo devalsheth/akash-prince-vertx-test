@@ -4,7 +4,8 @@ spring:
   application:
     name: new-project-launch-tool
   verticle:
-    numOfInstances: 1
+    numOfInstances: 3
+
 
 logging:
   config: 'classpath:logback-spring.xml'
